@@ -9,6 +9,10 @@ import org.testng.annotations.Test;
 
 public class LoginTest {
 
+    public void sateekTestMethod() {
+        System.out.println("Hello from Sateek");
+    }
+
     //what is Extent Report - it is a logger(kind of an object which logs certain messages) style reporting library for automated tests
     //What does it do - it adds info about test cases, screenshots, assigning tags, series of steps and sequencing those steps
     //All methods inside Extent Reports are thread safe - Recommend to create a single instance of Extent Reports
